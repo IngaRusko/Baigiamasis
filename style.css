@@ -1,0 +1,237 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(https://www.atverk.lt/wp-content/uploads/2020/11/Maisto-papildai-1140x641.png);
+  height: 100%;
+  padding: 0;
+  margin-bottom: 20px 0;
+  margin: 35px 0 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner {
+  position: absolute;
+  opacity: 0.9;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-color: rgb(253, 240, 183);
+  /* text-color: #181515e0; */
+  padding: 10px 12px;
+  text-align: center;
+  /* !important; */
+}
+
+.reg-form {
+  text-align: center;
+  /* !important; */
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+}
+
+.banner2 {
+  position: absolute;
+  opacity: 0.7;
+  margin: 2px 0 0 0;
+  left: 0;
+  right: 0;
+  /* top: 5; */
+  background-color: rgb(230, 197, 52);
+  color: #181515e0;
+  padding: 10px 12px;
+  justify-content: space-between;
+  font-size: x-large;
+  text-decoration: none;
+}
+
+header {
+  color: rgb(12, 11, 11);
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  /* padding: 10px 10px; */
+  /* margin-top: 0%; */
+}
+
+/* .logo-text {
+  text-align: right;
+  justify-content: space-between;
+} */
+
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+  text-align: right;
+}
+
+ul li a {
+  color: black;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-align: right;
+}
+
+.title {
+  /* background-image: ; */
+  margin-top: 105px;
+  text-align: right;
+}
+
+.sveikas {
+  color: brown;
+  align-items: flex-start;
+  /* padding: 0 0 10px 0; */
+  margin-right: 100px;
+}
+
+.sveikas-small {
+  color: brown;
+  align-items: flex-start;
+  /* padding: 0 0 10px 0; */
+  font-size: 14px;
+  margin-right: 100px;
+}
+
+main {
+  flex: 1;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.sec1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+  flex: 1 1 calc(25% - 30px);
+  border-radius: 5px;
+}
+
+.card a {
+  text-decoration: none;
+  padding-bottom: 20px;
+}
+
+.card img {
+  width: 250px;
+  height: 150px;
+  margin-bottom: 0px;
+}
+
+.card .button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 10px;
+  background-color: rgb(93, 193, 65);
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.card .button:hover {
+  background-color: rgb(155, 180, 242);
+}
+
+.logo3 {
+  max-height: 40px;
+}
+
+.sec2 {
+  width: 100%;
+  height: 400px;
+  background-color: #ccc;
+  background-image: radial-gradient(#000 10%, transparent 11%),
+    radial-gradient(#e53935 10%, transparent 11%);
+  background-size: 60px 60px;
+  background-position: 0 0, 30px 30px;
+  background-repeat: repeat;
+  /* position: absolute; */
+}
+
+.konteineris {
+  margin-top: 20px;
+}
+
+.collumn {
+  color: #5854bc;
+  font-size: 38px;
+  padding: 10px 0 10px 0;
+  margin-left: 20px;
+}
+
+/* collumn-cont */
+
+.collumn-cont {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 100px);
+  gap: 10px;
+}
+
+.cont-cont {
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.item1 {
+  grid-column: 1 / 1;
+}
+
+.item2 {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+}
+
+.item3 {
+  grid-column: 3 / 3;
+  grid-row: 3 / 3;
+}
+
+footer .logo3 img {
+  max-height: 30px;
+  margin: 10px 0 10px 0;
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: rgb(125, 192, 59);
+  color: black;
+  opacity: 0.6;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  padding-bottom: 0;
+}
+
+.ul-li {
+  margin-right: 60px;
+  margin-top: 20px;
+  align-items: center;
+  text-decoration: none;
+}
+
+.log {
+  margin-top: 12px;
+}
+
+.li1 {
+  display: inline;
+  margin-right: 20px;
+  text-decoration: none;
+}

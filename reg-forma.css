@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.contact-title {
+  width: 600px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 16px;
+  padding: 10px 10px;
+}
+
+.contact-form {
+  text-align: center;
+  width: 300px;
+  margin: 0 auto;
+  background-color: hsla(94, 89%, 71%, 0.1);
+  padding: 16px;
+  border-radius: 10px;
+  border-style: dashed;
+}
+
+.form-item {
+  margin-bottom: 16px;
+}
+
+.submit-button {
+  background-color: rgba(84, 219, 104, 0.8);
+  color: rgb(21, 20, 19);
+  border: 1px solid rgb(95, 92, 92);
+  padding: 10px 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.submit-button:hover {
+  background-color: rgb(124, 124, 238);
+}
